@@ -26,6 +26,7 @@ public class Vehiculo {
 		this.traccion = traccion;
 		this.fabricante = fabricante;
 		CantidadVehiculos++;
+		fabricante.numVentas++;
 	}
 
 	public String getPlaca() {
