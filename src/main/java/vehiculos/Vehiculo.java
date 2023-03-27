@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Vehículo {
+public class Vehiculo {
 	private String placa;
 	private int puertas;
 	private int velocidadMaxima;
@@ -15,7 +15,7 @@ public class Vehículo {
 	protected int cantCamioneta;
 	protected int cantCamion;
 	
-	public Vehículo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso,
+	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso,
 			String traccion, Fabricante fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
