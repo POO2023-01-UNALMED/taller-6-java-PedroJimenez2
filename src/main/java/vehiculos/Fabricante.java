@@ -31,15 +31,14 @@ public class Fabricante {
 		this.pais = pais;
 	}
 	public static Fabricante fabricaMayorVentas(){
-		int numMay = 0;
-		Fabricante fabriMayorVen = null;
-		for(Fabricante fabricante : listaFabri) {
-			if(fabricante.numVentas > numMay) {
-				numMay = fabricante.numVentas;
-				fabriMayorVen = fabricante;
-			}	
-		}
-		return fabriMayorVen;
-	}
-
+        int numMay = 0;
+        Fabricante fabriMayVen = null;
+        for (Fabricante fabricante : listaFabri) {
+            if (fabricante.numVentas > numMay){
+                numMay = fabricante.numVentas;
+                fabriMayVen = fabricante;
+            }
+        }
+        return fabriMayVen;
+    }
 }
